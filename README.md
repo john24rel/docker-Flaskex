@@ -1,11 +1,16 @@
-```
-To Create Doker Image From Dockerfile
-RUN
+## To Create Doker Image From Dockerfile
+``` 
 docker build -t (tagname) .
-docker run -d -p 80:5000 image name or image id
-curl http://vm ipaddress
-copy to web browser
 ```
+## To Run Doker Image
+```
+docker run -d -p 80:5000 image name or image id
+```
+## test if working
+```
+curl http://vm ipaddress
+copy ip to web browser
+``` 
 
 <p align="center"><img src="https://raw.githubusercontent.com/anfederico/Flaskex/master/media/flaskex-logo.png" width="128px"><p>
 
