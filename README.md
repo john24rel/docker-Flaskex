@@ -6,7 +6,11 @@ docker build -t (tagname) .
 ```
 docker run -d -p 80:5000 image name or image id
 ```
-## test if working
+## To view the running container
+```
+docker ps
+```
+## check if container is running web application
 ```
 curl http://vm ipaddress
 copy ip to web browser
