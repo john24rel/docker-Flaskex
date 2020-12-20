@@ -1,6 +1,6 @@
 FROM python
 LABEL maintainer="john.oshi44@gmail.com"
-COPY flaskex/ /Flaskex/
+COPY Flaskex/ /Flaskex/
 WORKDIR /Flaskex/
 RUN pip install -r requirements.txt
 EXPOSE 5000
