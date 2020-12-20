@@ -12,7 +12,7 @@ docker ps
 ```
 ## check if container is running web application
 ```
-curl http://vm ipaddress
+curl http://container ip  # docker inspect container id or name | grep -i ipaddress
 copy ip to web browser
 ``` 
 
